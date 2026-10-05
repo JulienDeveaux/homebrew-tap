@@ -19,7 +19,9 @@ defaults:
 
 jobs:
   autobump:
-    runs-on: ubuntu-latest
+    # macOS runner required: `brew bump --casks` audits the cask, which mounts
+    # the release DMG. That extraction cannot run on Linux.
+    runs-on: macos-latest
     permissions:
       contents: write
       pull-requests: write

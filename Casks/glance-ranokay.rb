@@ -1,6 +1,6 @@
 cask "glance-ranokay" do
-  version "1.6.1"
-  sha256 "475b4a7c0efe91487d6749e4928b778371ebee6674446fd30dfb5fa8eb33b533"
+  version "1.7.0"
+  sha256 "0451e03eb644777388120b40ed54f470d7d03bdf8f111195f6f5a092c059c506"
 
   url "https://github.com/ranokay/glance/releases/download/v#{version}/Glance-#{version}.dmg"
   name "Glance"
