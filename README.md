@@ -15,3 +15,16 @@ brew tap juliendeveaux/tap
 ```sh
 brew install --cask glance-ranokay
 ```
+
+## Formulae
+
+### `apple-wyoming`
+
+[apple-wyoming](https://github.com/JulienDeveaux/apple-wyoming), a local
+[Wyoming](https://github.com/rhasspy/wyoming) speech-to-text server for Home Assistant, backed by Apple's
+on-device dictation (macOS 26+)
+
+```sh
+brew install apple-wyoming
+brew services start apple-wyoming
+```
